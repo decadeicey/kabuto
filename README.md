@@ -2,7 +2,7 @@
 
 > 提醒： 滥用可能导致账户被BAN！！！ 
 
-> 提醒： Heroku 已经封禁本专案，请 Fork 本专案后，将 README.md 中的 Lbingyi 替换为自己的用户名后，再进行部署。 
+> 提醒： Heroku 已经封禁本专案，请 Fork 本专案后，将 README.md 中的 decadeicey 替换为自己的用户名后，再进行部署。 
 >![image](https://user-images.githubusercontent.com/5351277/126950598-7930a0ac-739a-46ac-aef2-afa2d213a06c.png)
 
 ## 概述
@@ -27,11 +27,11 @@ vless 性能更加优秀，占用资源更少。
 如出现错误，可以多尝试几次，待部署完成后页面底部会显示`Your app was successfully deployed` 
   * 点击Manage App可在Settings下的Config Vars项**查看和重新设置参数**  
   * 点击Open app跳转[欢迎页面](/etc/CADDYIndexPage.md)域名即为heroku分配域名，格式为`xxx.herokuapp.com`，用于客户端  
-  * 默认协议密码为`24b4b1e1-7a89-45f6-858c-242cf53b5bdb`，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
+  * 默认协议密码为`f6818498-f9af-11ec-b939-0242ac120002`，WS路径为$UUID-[vmess|vless|trojan|ss|socks]格式
 
 ### 客户端
 * **务必替换所有的`xxx.herokuapp.com`为heroku分配的项目域名**  
-* **务必替换所有的`24b4b1e1-7a89-45f6-858c-242cf53b5bdb`为部署时设置的UUID,建议更改,不要每个人都一样**  
+* **务必替换所有的`2f6818498-f9af-11ec-b939-0242ac120002`为部署时设置的UUID,建议更改,不要每个人都一样**  
 
 **XRay 将在部署时会自动实配安装`最新版本`。**
 
@@ -45,13 +45,13 @@ vless 性能更加优秀，占用资源更少。
 * 代理协议：vless 或 vmess
 * 地址：xxx.herokuapp.com
 * 端口：443
-* 默认UUID：24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+* 默认UUID：f6818498-f9af-11ec-b939-0242ac120002
 * vmess额外id：0
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
 * 伪装域名：xxx.workers.dev(CF Workers反代地址)
-* 路径：/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vless // 默认vless使用(/自定义UUID码-vless)，vmess使用(/自定义UUID码-vmess)
+* 路径：/f6818498-f9af-11ec-b939-0242ac120002-vless // 默认vless使用(/自定义UUID码-vless)，vmess使用(/自定义UUID码-vmess)
 * 底层传输安全：tls
 * 跳过证书验证：false
 ```
